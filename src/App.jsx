@@ -11,7 +11,7 @@ function App() {
     <div>
       <BrowserRouter>
         <header>
-          <h1>React Store</h1>
+          <h1>My React Store</h1>
           <Link to="/">Home</Link>-
           <Link to="/cart">Cart</Link>-
           <Link to="/login">Login</Link>
