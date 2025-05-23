@@ -5,15 +5,13 @@ import App1 from "./components/App1";
 import App2 from "./components/App2";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <BrowserRouter>
-      <header>
-        <h1>React Lessons</h1>
-        <Link to="/">App1</Link>-
-        <Link to="/app2">App2</Link>
-      </header>
-      <hr />
+    <header/>
       <main>
         <Routes>
           <Route index element={<App1/>}></Route>
@@ -22,7 +20,7 @@ function App() {
         </Routes>
       </main>
       <hr />
-      <footer>Copyright. All rights reserved.</footer>
+      <footer/>
     </BrowserRouter>
   );
 }
