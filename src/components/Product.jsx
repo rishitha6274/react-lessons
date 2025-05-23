@@ -1,9 +1,7 @@
-export default function Product({value}) {
+export default function Product(props) {
   return  <div className="App-Product-Box">
-      <h3>{value.name}</h3>
-      <h4>${value.price}</h4>
+      <h3>{props.value.name}</h3>
+      <h4>${props.value.price}</h4>
       <p><button>Add to Cart</button></p>
     </div>;
 }
-
-
