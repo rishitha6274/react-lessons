@@ -7,7 +7,7 @@ export default function App2() {
   ];
   return (
     <div>
-      <h1 style={{color:'#d86c7a'}}>This is App2 component</h1>
+      <h2 style={{color:'#d86c7a'}}>This is App2 component</h2>
       <div className="App-Product-Container">
         {products.map((value) => (
           <div className="App-Product-Box" key={value.id}>
