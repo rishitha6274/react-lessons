@@ -6,6 +6,6 @@
 .App-Product-Box {
     margin: 10px;
     padding: 10px;
-    background-color: cadetblue;
-    color: white;
+    background: linear-gradient(to right, #f8ede3, #fce1e4);
+    color: #d86c7a;
 }
