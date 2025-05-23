@@ -17,4 +17,6 @@ button{
     background: white;
     border-radius: 5px;
     border: dotted 1px pink;
+    font-weight: bold;
+    color: #d86c7a;
 }
