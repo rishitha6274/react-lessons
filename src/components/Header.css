@@ -1,4 +1,7 @@
 .App-Header-Row{
     background: linear-gradient(to right, #f8ede3, #fce1e4);
     color: #d86c7a;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
