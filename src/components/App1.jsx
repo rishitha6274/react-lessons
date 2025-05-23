@@ -1,5 +1,5 @@
 import Product from "./Product";
-import Varient from "./Varient";
+import Variant from "./Variant";
 import Calc from "./Calc";
 export default function App1() {
   let a = 10;
