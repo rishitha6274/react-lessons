@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Fruit.css";
 
-export default function Fruit({ name }) {
+export default function Fruit(props) {
   return (
-    <div className="Fruitbox">{name}</div>
+    <div className="Fruitbox">{props.name}</div>
   );
 }
