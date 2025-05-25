@@ -1,0 +1,35 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  color: #d86c7a;
+}
+
+.subheading {
+  margin-top: 0;
+}
+
+.inputBox {
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+.gridBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.operationBox {
+  border: 2px solid black;
+  padding: 20px;
+  width: 200px;
+  font-size: 18px;
+}
