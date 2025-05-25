@@ -47,20 +47,21 @@ export default function App10() {
       <hr />
 
       <h2 style={{ color: "#d86c7a" }}>My Cart</h2>
-      <div className="cart">
-        {Object.entries(cart).map(([id, qty]) => {
-          const product = products.find((Product) => Product.id === parseInt(id));
-          return (
-            <div key={id} className="cart-item">
-              {product.name} - ${product.price} -
-              <button onClick={() => handleDecrement(product.id)}> - </button>
-              {qty}
-              <button onClick={() => handleIncrement(product.id)}> + </button> = $
-              {product.price * qty}
-            </div>
-          );
-        })}
-      </div>
+       <ol>
+  {products.map((product) => {
+    const qty = cart[product.id];
+    if (!qty) return null;
+
+    return (
+      <li key={product.id}>
+        {product.name} - ${product.price} 
+        <button onClick={() => handleDecrement(product.id)}> - </button>
+        {qty}
+        <button onClick={() => handleIncrement(product.id)}> + </button>
+      </li>
+    );
+  })}
+</ol>
     </div>
   );
 }
