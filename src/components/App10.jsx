@@ -42,7 +42,7 @@ export default function App10() {
           <div key={product.id} className="box">
             <h3>{product.name}</h3>
             <p>Price: ${product.price}</p>
-            <button onClick={() => handleAdd(product.id)}>Add to Cart</button>
+            <button className="btn" onClick={() => handleAdd(product.id)}>Add to Cart</button>
           </div>
         ))}
       </div>
