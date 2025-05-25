@@ -24,26 +24,26 @@ export default function App13() {
       <h1 className="heading">App13</h1>
      
       
-      <div className="gridBox">
-        <div className="operationBox">
+      <div className="box">
+        <div className="b1">
           <strong>Addition</strong>
           <p>100 + {inputNumber} = {results.addition}</p>
         </div>
-        <div className="operationBox">
+        <div className="b1">
           <strong>Subtraction</strong>
           <p>100 - {inputNumber} = {results.subtraction}</p>
-        </div>
+        </div> 
         <input
         type="number"
         value={inputNumber}
         onChange={(e) => setInputNumber(e.target.value)}
         className="inputBox"
-      />
-        <div className="operationBox">
+      /> 
+        <div className="b1">
           <strong>Multiplication</strong>
           <p>100 * {inputNumber} = {results.multiplication}</p>
         </div>
-        <div className="operationBox">
+        <div className="b1">
           <strong>Division</strong>
           <p>100 / {inputNumber} = {results.division}</p>
         </div>
