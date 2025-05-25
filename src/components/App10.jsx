@@ -11,8 +11,11 @@ export default function App10() {
   const [cart, setCart] = useState({});
 
   const handleAdd = (id) => {
-    setCart((prevCart) => ({ ...prevCart, [id]: 1 }));
-  };
+  setCart((prevCart) => ({
+    ...prevCart,
+    [id]: prevCart[id] ? prevCart[id] + 1 : 1,
+  }));
+};
 
   const handleIncrement = (id) => {
     setCart((prevCart) => ({ ...prevCart, [id]: prevCart[id] + 1 }));
