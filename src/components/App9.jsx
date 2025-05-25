@@ -12,12 +12,12 @@ export default function App8() {
     <div>
       <h1 style={{color:'#d86c7a'}}>App9</h1>
       <h2>useState Revision</h2>
-      <div>
-        <button onClick={decrement}>
+      <div className="box">
+        <button className="btn" onClick={decrement}>
           -
         </button>
-        <span>{count}</span>
-        <button onClick={increment}>
+        <span className="value">{count}</span>
+        <button className="btn" onClick={increment}>
           +
         </button>
       </div>

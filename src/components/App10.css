@@ -1,0 +1,16 @@
+.Container {
+  border: 2px solid #f8ede3;
+  padding: 40px;
+  width: max-content;
+  margin: 140px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  background: linear-gradient(to right, #f8ede3, #fce1e4);
+  border-radius: 40px;
+}
+
+.box {
+  padding: 10px;
+}
