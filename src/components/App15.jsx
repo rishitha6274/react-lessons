@@ -25,18 +25,18 @@ export default function App15() {
       <h1 style={{ color: "#d86c7a" }}>App15</h1>
       <h2>useRef hook - to create uncontrolled component</h2>
       <p>
-        <input type="text" ref={nameRef} />
+        <input type="text" placeholder="Enter name" ref={nameRef} />
       </p>
       <button onClick={handleSubmit}>Submit</button>
       <hr />
       <p>
-        <input type="number" ref={num1Ref}/>
-        <input type="number" ref={num2Ref}/>
+        <input type="number" placeholder="Enter 1st number" ref={num1Ref}/>
+        <input type="number" placeholder="Enter 2nd number" ref={num2Ref}/>
       </p>
       <p>{sum}</p>
       <button onClick={handleSubmit1}>Get Sum</button>
       <hr />
-      <input type="text" ref={colorRef}/> 
+      <input type="text" placeholder="Enter any color" ref={colorRef}/> 
        <button onClick={handleSubmit2}>Change color</button>
        <p style={{ color: color, fontWeight: "bold", fontSize: "24px" }}>
         Hello world
