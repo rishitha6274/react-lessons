@@ -34,10 +34,10 @@ export default function App15() {
         <input type="number" ref={num2Ref}/>
       </p>
       <p>{sum}</p>
-      <button onClick={handleSubmit1}>Submit</button>
+      <button onClick={handleSubmit1}>Get Sum</button>
       <hr />
       <input type="text" ref={colorRef}/> 
-       <button onClick={handleSubmit2}>Submit</button>
+       <button onClick={handleSubmit2}>Change color</button>
        <p style={{ color: color, fontWeight: "bold", fontSize: "24px" }}>
         Hello world
       </p>
