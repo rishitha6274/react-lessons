@@ -14,10 +14,10 @@ export default function App14() {
   const [txt, setTxt] = useState();
   const [filtered, setFiltered] = useState([]);
   const handleSearch = () => {
-   const result = users.filter((user) =>
+   const User = users.filter((user) =>
       user.name.toLowerCase().includes(txt.toLowerCase())
     );
-    setFiltered(result);
+    setFiltered(User);
   };
   return (
     <div>
