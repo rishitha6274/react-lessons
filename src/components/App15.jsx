@@ -6,7 +6,7 @@ export default function App15() {
   const num2Ref = useRef();
   const colorRef = useRef();
   const [sum, setSum] = useState();
-  const [color, setColor] = useState("black");
+  const [color, setColor] = useState("grey");
   const handleSubmit = () => {
     alert(nameRef.current.value);
     nameRef.current.style.color = "blue"
