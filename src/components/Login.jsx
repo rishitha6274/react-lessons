@@ -15,7 +15,7 @@ export default function Login() {
 
   return (
     <div>
-      <h3>Login</h3>
+      <h3 style={{ color: "#d86c7a" }}>Login</h3>
       <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} /><br />
       <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} /><br />
       <button onClick={handleLogin}>Submit</button>

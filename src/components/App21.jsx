@@ -13,7 +13,7 @@ export default function App21() {
     <h1 style={{ color: "#d86c7a" }}>App21</h1>
     <div className="app-container">
       
-      <h2>useContext Hook - Register & Login</h2>
+     
 
       <AppContext.Provider value={{ users, setUsers }}>
         <div className="section-container">
@@ -26,7 +26,7 @@ export default function App21() {
         </div>
 
         <div className="user-list">
-          <h3>Registered Users</h3>
+          <h3 style={{ color: "#d86c7a" }}>Registered Users</h3>
           {users.length === 0 ? (
             <p>No users registered yet.</p>
           ) : (

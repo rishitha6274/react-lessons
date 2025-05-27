@@ -15,7 +15,7 @@ export default function Register() {
 
   return (
     <div>
-      <h3>Register</h3>
+      <h3 style={{ color: "#d86c7a" }}>Register</h3>
       <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} /><br />
       <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} /><br />
       <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} /><br />
