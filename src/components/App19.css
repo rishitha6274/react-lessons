@@ -1,0 +1,47 @@
+.container {
+  font-family: sans-serif;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.score-sec {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; 
+  
+}
+
+.score-box {
+  border: 2px dotted #d86c7a;
+  border-radius: 20px;
+  padding: 20px;
+  width: 200px;
+  background: linear-gradient(to right, #f8ede3, #fce1e4);
+  border-radius: 40px;
+}
+
+.score-value {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.score-button {
+  width: 100px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.message-box {
+  border: 2px dotted #d86c7a;
+  border-radius: 20px;
+  padding: 20px;
+  min-width: 220px;
+  background: linear-gradient(to right, #f8ede3, #fce1e4);
+  border-radius: 40px;
+}
