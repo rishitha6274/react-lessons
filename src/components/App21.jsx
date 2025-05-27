@@ -33,7 +33,7 @@ export default function App21() {
             <ul>
               {users.map((user, index) => (
                 <li key={index}>
-                  <strong>{user.name}</strong> ({user.email})
+                  <strong>{user.name}</strong> - {user.email}
                 </li>
               ))}
             </ul>
