@@ -36,7 +36,7 @@ export default function App19() {
   return (
     <>
      <h1 style={{ color: "#d86c7a" }}>App19</h1>
-    <div className="container">
+    <div className="app-container">
 
       <h2 className="title" style={{ color: "#d86c7a" }}>Cricket Score Board</h2>
 

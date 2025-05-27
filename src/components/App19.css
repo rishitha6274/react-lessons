@@ -1,9 +1,11 @@
-.container {
+.app-container {
   font-family: sans-serif;
   padding: 20px;
   text-align: center;
   
 }
+
+
 
 .score-sec {
   margin-top: 30px;
